@@ -88,9 +88,15 @@
 ## Other Concepts and Commans
 * `grep`
 * `echo`
+* `which`
 * Subshells and `$()`
 * Permissions and `chmod`
 * Ownership and `chown`
 * Parameter expansion
 * Shell variables
 * Conditionals and `test`
+* `$PATH`
+* `~/.bash_profile`
+* `source`
+* `export`
+* `PYTHONPATH`
