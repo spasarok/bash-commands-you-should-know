@@ -18,6 +18,8 @@
   * `../relative/path/to/file` - `../` references the parent directory
   * `../../../relative/path/to/file` - `../../../` references the parent of the parent of the parent directory
 
+### Commands
+
 #### `cd [path_to_directory]`
 * What does it do?
   * Change directory
@@ -69,3 +71,13 @@
   * `touch /full/path/to/new/file` - Create a new file at the specified location
   * `touch relative/path/to/new/file`
   * `touch ../../../relative/path/to/new/file`
+
+## Other Concepts and Commans
+* `grep`
+* `echo`
+* Subshells and `$()`
+* Permissions and `chmod`
+* Ownership and `chown`
+* Parameter expansion
+* Shell variables
+* Conditionals and `test`
