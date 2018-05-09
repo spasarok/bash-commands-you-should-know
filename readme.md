@@ -15,8 +15,21 @@
 * Reference files or directories relative to the current directory
 * Examples
   * `relative/path/to/file`
-  * `../relative/path/to/file` - `../` references the parent directory
-  * `../../../relative/path/to/file` - `../../../` references the parent of the parent of the parent directory
+  * `../relative/path/to/file` - `../` - Reference the parent directory
+  * `../../../relative/path/to/file` - Reference the parent of the parent of the parent directory
+
+#### Current Directory
+* `.` references the current directory
+* Examples
+  * `./some-file` - Reference the file `some-file` in the current directory
+  * `ls .` - List the files in the current directory
+
+#### Parent Directories
+* `../` references the parent directory
+* You can use multiples (`../../../`) to reference a directory multiple levels above
+* Examples
+  * `../some-file` - Reference the file `some-file` which exists one directory above the current directory
+  * `ls ../../../` - List the contents of the directory three levels above the current directory
 
 ### Commands
 
@@ -30,7 +43,7 @@
   * `cd ..` - Change to parent directory
   * `cd ../../../relative/path/to/dir` - Change to specified directory, with each `../` indicating a parent directory
 
-#### `ls <path_to_directory>`
+#### `ls [path_to_directory]`
 * What does it do?
   * List the contents of a directory
   * Does not inherently list hidden files
